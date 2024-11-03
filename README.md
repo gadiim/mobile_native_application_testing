@@ -1,28 +1,35 @@
-# Project Name
 
-[![CI](https://github.com/your-username/your-repository/actions/workflows/test.yml/badge.svg)](https://github.com/your-username/your-repository/actions/workflows/test.yml)
 
-## Опис
 
-Короткий опис проєкту і його цілей.
+## Overview
 
-## Встановлення
+This project is a test automation
 
-Інструкції по встановленню всіх залежностей для проєкту.
+## Installation
+
+To set up the project, follow these steps:
+
+1. **Clone the Repository**:
+   
+   ```bash
+   git clone https://github.com/gadiim/01.10.24_playwright_test_project.git
+   cd 01.10.24_playwright_test_project
+   ```
+3. **Install Dependencies**: Run the following command to install the required Node.js packages:
 
 ```bash
 npm install
 ```
 
-## Використання
+## Running Tests
 Інструкції по запуску тестів локально і на BrowserStack
 
-**Запуск тестів локально**
+**Running tests locally**
 ```bash
 npm run test
 ```
 
-**Запуск тестів на BrowserStack**
+**Running tests on BrowserStack**
 ```bash
 npm run test
 ```
