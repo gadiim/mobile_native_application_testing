@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "bundler",
+        "module": "ESNext",
+        "target": "es2022",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework",
+            "@wdio/appium-service",
+            "@wdio/browserstack-service"
+        ],
+        "skipLibCheck": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["test/**/*.ts"],
+    "exclude": [
+    "node_modules",
+    "test/specs/test.e2e.ts",
+    "test/pageobjects/calculator.ts"
+  ]
+}
