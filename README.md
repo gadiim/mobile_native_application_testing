@@ -5,7 +5,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [License](#дicense)
+- [License](#license)
 
 ## Overview
 
