@@ -46,8 +46,8 @@ The test automation suite was executed both locally using Appium and on BrowserS
 #### Allure Reports
 Detailed test results, including screenshots and logs, are available through Allure reports. Below is a sample screenshot of the Allure report:
 
-<img src=".images/allure_report_overview.jpg" width="400"/>
-<img src=".images/allure_report_suites.jpg" width="400"/> 
+<img src=".image/allure_report_overview.jpg" width="400"/>
+<img src=".image/allure_report_suites.jpg" width="400"/> 
 
 #### BrowserStack Public Link
 Tests were also run on BrowserStack, and you can view the detailed results and logs through the following public link:
