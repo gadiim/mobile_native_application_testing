@@ -74,7 +74,7 @@ To get started with the project, follow these steps to set up your environment a
 
 #### Download and Install the APK File:
    - Ensure you have the Calculator app APK file available.
-   - You can either download your own APK file or use the provided APK file [here](link-to-your-apk-file).
+   - You can either download your own APK file or use the provided APK file from [APKMirror](https://www.apkmirror.com/apk/samsung-electronics-co-ltd/calculator-samsung/calculator-samsung-12-0-05-5-release/).
    - > **Note:** The provided APK file works with the current project configuration. If you download a different APK file, you will need to update the project configuration to match the APK file's requirements.
    - If you're testing locally, install the APK on your Android device/emulator using the following command:
      ```bash
