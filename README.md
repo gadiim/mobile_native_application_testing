@@ -1,3 +1,5 @@
+![CI](https://github.com/gadiim/mobile_native_application_testing/actions/workflows/ci.yml/badge.svg)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Test Cases](#test-cases)
