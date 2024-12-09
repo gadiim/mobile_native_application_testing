@@ -14,7 +14,8 @@ export const config = {
     },
     capabilities: [{
       platformName: 'Android',
-      'appium:deviceName': 'ce12171c7bc3a63f04',
+      'appium:deviceName': 'Android Device',
+      // 'appium:deviceName': 'ce12171c7bc3a63f04',
       // "appium:app": join(process.cwd(), "./apps/android/app-staging-debug.apk"),
       'appium:platformVersion': '9',
       'appium:automationName': 'UiAutomator2',
