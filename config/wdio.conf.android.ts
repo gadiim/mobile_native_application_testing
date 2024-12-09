@@ -20,7 +20,8 @@ export const config = {
       'appium:automationName': 'UiAutomator2',
       'appium:appPackage': 'com.sec.android.app.popupcalculator',
       'appium:appActivity': 'com.sec.android.app.popupcalculator.Calculator',
-      'appium:noReset': true
+      'appium:noReset': true,
+      'appium:fullReset': true // automatic deletion of settings after completion of tests
   }],
 
 }

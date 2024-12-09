@@ -25,7 +25,7 @@
     "include": ["test/**/*.ts", "config/**/*.ts"],
     "exclude": [
     "node_modules",
-    "test/specs/test.e2e.ts",
-    "test/pageobjects/calculator.ts"
+    // "test/specs/test.e2e.ts",
+    // "test/pageobjects/calculator.ts"
   ]
 }
