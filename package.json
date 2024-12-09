@@ -27,7 +27,7 @@
     "test:bs": "wdio run ./config/wdio.conf.android.bs.ts",
     "test": "wdio run ./config/wdio.conf.android.ts",
     "allure": "npx allure serve ./reporters/allure-results",
-    "allure:generate": "rm -rf ./reporters/allure-results && npx allure generate ./reporters/allure-results --clean",
+    "allure:generate": "npx allure generate ./reporters/allure-results --clean",
     "calc": "adb shell am start -n com.sec.android.app.popupcalculator/.Calculator"
   },
   "dependencies": {
