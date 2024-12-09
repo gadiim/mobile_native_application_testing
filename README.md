@@ -51,8 +51,6 @@ Detailed test results, including screenshots and logs, are available through All
 <img src=".image/allure_report_overview.jpg" width="400"/>
 <img src=".image/allure_report_suites.jpg" width="400"/> 
 
-or you can view the test reports [here](https://gadiim.github.io/mobile_native_application_testing/)
-
 #### BrowserStack Public Link
 Tests were also run on BrowserStack, and you can view the detailed results and logs through the following public link:
 [BrowserStack Test Results](https://app-automate.browserstack.com/builds/b9f145c6e68df0bdc026ae505c03b75915846822/sessions/fe2dadcdb4569c97c8c4a247549a5d5303c972c2?auth_token=aaa32975e5253c47ab904f412f29d5c78a13285c7658b990e9e5b14e003510da)
