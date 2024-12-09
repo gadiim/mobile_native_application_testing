@@ -25,9 +25,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Clean old allure results
-        run: rm -rf ./reporters/allure-results ./allure-report
-
       - name: Install dependencies
         run: npm install
 
