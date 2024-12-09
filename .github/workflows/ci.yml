@@ -35,24 +35,3 @@ jobs:
           BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
           BROWSERSTACK_ANDROID_APP_ID: ${{ secrets.BROWSERSTACK_ANDROID_APP_ID }}
 
-      - name: Generate Allure report
-        if: always()
-        run: npm run allure:generate
-      - name: Upload Results
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: allure-results
-          path: ./reporters/allure-results 
-      - name: Publishing Allure artifact to Github Actions
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: allure-report
-          path: ./allure-report
-      - name: Deploy report
-        uses: JamesIves/github-pages-deploy-action@4.1.3
-        if: always()
-        with:
-          branch: report
-          folder: allure-report 
